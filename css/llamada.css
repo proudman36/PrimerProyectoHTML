@@ -7,9 +7,10 @@
     text-align: center;
     
     background-color: var(--background-llamada-mobile);
-
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
+    background-position:center;
+    background-image:url(../img/bg-intro.jpg)
 }
 
 .llamada__titulo {

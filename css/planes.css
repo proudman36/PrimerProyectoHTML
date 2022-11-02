@@ -15,9 +15,11 @@
 
 .planes__tarjetas {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+
 }
+
 
 .tarjetas {
     display: flex;
@@ -50,7 +52,26 @@
     padding: 0 15%;
 }
 
-.tarjetas__precio {
+.tarjetas__precio_start{
+    color:royalblue;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.tarjetas__precio_ultra{
+    color:purple;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.tarjetas__precio_mega{
+    color:red;
     font-weight: 700;
     font-size: 3rem;
     text-align: center;
@@ -79,20 +100,66 @@
 }
 
 .tarjetas--start {
+    float:left;
 }
 
 .tarjetas--ultra {
+    float:center;
 }
 
+
 .tarjetas--mega {
+    float:right;
 }
 
 .tarjetas__boton--start {
+    color:royalblue;
+    border-color:royalblue;
 }
 
 .tarjetas__boton--ultra {
+    color:purple;
+    border-color:purple;
 }
 
+
 .tarjetas__boton--mega {
-    border-color: var(--planes-card-mega);
+    color:red;
+    border-color:red;
+}
+.tarjetas__titulo_start{
+    color:royalblue;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: .75rem 0;
+
+    margin-bottom: .5rem;
+
+    border-bottom: 1px solid var(--background-azul-claro);
+}
+.tarjetas__titulo_ultra{
+    color:purple;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: .75rem 0;
+
+    margin-bottom: .5rem;
+
+    border-bottom: 1px solid var(--background-azul-claro);
+}
+.tarjetas__titulo_mega{
+    color:red;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: .75rem 0;
+
+    margin-bottom: .5rem;
+
+    border-bottom: 1px solid var(--background-azul-claro);
 }

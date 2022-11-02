@@ -35,3 +35,8 @@
 
     margin: 0 .5rem .7rem;
 }
+.footer__logo{
+    width:100px;
+    height:100px;
+    float:left;
+}

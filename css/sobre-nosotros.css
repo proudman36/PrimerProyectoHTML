@@ -1,9 +1,10 @@
-.sobre-nosotros {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+.sobre_nosotros_container{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .sobre_nosotros__titulo {
+    margin-left:20px;
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
     font-size: 1.5rem;
@@ -13,10 +14,12 @@
 }
 
 .sobre_nosotros__texto {
+    margin-left:20px;
     line-height: normal;
     margin-bottom: 1rem;
 }
 .sobre_nosotros__texto_ultimo{
+    margin-left:20px;
     color: rgb(78, 78, 78);
     font-weight: bold;
 }
@@ -32,9 +35,32 @@
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
 }
+.sobre_nosotros__texto_final{
+    margin-left:20px;
+}
 .sobre_nosotros__contenido_img{
     width:300px;
-    height:400px;
-    margin-left:1200px;
-    margin-block-end: ;
+    height:410px;
+    float:right;
+}
+.sobre_nosotros__logo_android{
+    margin-top:30px;
+    margin-left:70px;
+    margin-bottom:20px;
+
+}
+.sobre_nosotros__logo_blackberry{
+    margin-top:30px;
+    margin-left:70px;
+    margin-bottom:25px;
+}
+.sobre_nosotros__logo_apple{
+    margin-top:30px;
+    margin-left:70px;
+    margin-bottom:25px;
+}
+.sobre_nosotros__logo_windows{
+    margin-top:30px;
+    margin-left:70px;
+    margin-bottom:25px;
 }
