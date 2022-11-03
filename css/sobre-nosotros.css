@@ -1,6 +1,8 @@
 .sobre_nosotros_container{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left:8rem;
+    padding-right:8rem;
 }
 
 .sobre_nosotros__titulo {

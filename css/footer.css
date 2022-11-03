@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+   
 
     background-color: var(--background-footer);
 
@@ -25,7 +25,6 @@
 .footer__navegacion {
     color: var(--background-blanco);
     font: var(--open-sans);
-    text-align: center;
     line-height: 3;
 }
 
@@ -38,5 +37,9 @@
 .footer__logo{
     width:100px;
     height:100px;
-    float:left;
+    
+}
+.footer_container1{
+    display:flex;
+    justify-content:space-between;
 }
